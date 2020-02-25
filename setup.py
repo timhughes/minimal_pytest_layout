@@ -2,10 +2,8 @@
 # vim:fenc=utf-8
 #
 
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 setup(
-    name="mything",
-    packages=find_packages('src'),
-    package_dir={'': 'src'},
+    name="mything", packages=find_packages("src"), package_dir={"": "src"},
 )
