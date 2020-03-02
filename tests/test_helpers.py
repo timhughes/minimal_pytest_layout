@@ -2,7 +2,7 @@
 # vim:fenc=utf-8
 #
 
-from mything.helpers import increment
+from .context.mything.helpers import increment
 
 
 def test_answer():
